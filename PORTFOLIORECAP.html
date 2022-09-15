@@ -1,0 +1,262 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Portfolioreacap</title>
+    <link rel="stylesheet" href="PORTFOLIORECAP.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+    <script src="Scripts/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <header>
+        <div class="profile">
+            <img src="IMAGE/2.jpeg" style="width:150px; height:150px;" />
+            <h2>V.Vignesh kumar</h2>
+            <h4>Front End Developer</h4>
+        </div>
+        <div class="navbar">
+            <ul>
+                <li><a href="#home">home</a></li>
+                <li><a href="#about">about</a></li>
+                <li><a href="#Education">Education</a></li>
+                <li><a href="#skills">skills</a></li>
+                <li><a href="#contact">contact</a></li>
+            </ul>
+        </div>
+    </header>
+    <div class="line3">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+
+    <!--Script start-->
+
+    <script>
+        var header = document.querySelector('header');
+        var line3 = document.querySelector('.line3');
+        var a = document.querySelector('ul');
+
+        line3.addEventListener('click', () => {
+            header.classList.toggle('slide');
+        });
+        a.addEventListener('click', () => {
+            header.classList.toggle('slide');
+        });
+    </script>
+    <!--Script end-->
+
+    <section class="home" id="home">
+        <h3 class="hi">HI THERE !</h3>
+        <h1>I'M   <span>V.VIGNESH KUMAR</span></h1>
+        <p>
+            Lorem Ipsum Dolor Sit Amet Consectetur Adipisicinig Elit.<br />
+            Distinctio Deserunt Aspernatur Fugiat Minus Enim<br />
+            Ullam Repudiandae Sint Sed Magnam Tenetur! Lorem Ipsum Dolor Sit <br />
+            Amet Consectetur Adipisicing Elit. Necessitatibus,At.
+        </p>
+        <h3 class="about1"><a href="#about">About me<i class="fa-solid fa-user"></i></a></h3>
+        <div class="downarrow">
+            <a href="#contact"><i class="fa-solid fa-arrow-down"></i></a>
+        </div>
+    </section>
+
+    <!--Script start-->
+    <script>
+        var section = document.querySelector('section');
+        var line3 = document.querySelector('.line3');
+
+        line3.addEventListener('click', () => {
+            section.classList.add('sechide');
+        });
+    </script>
+
+    <!--Script end-->
+    <!--About section start-->
+
+    <section class="about" id="about">
+        <h2><span>About</span> Me</h2>
+        <div class="row">
+            <div class="about-start">
+                <h3>Name :<span> V.Vignesh Kumar</span></h3>
+                <h3>Age :<span> 20</span></h3>
+                <h3>Qualification :<span> BCA</span></h3>
+                <h3>Post :<span>Frond End Developer</span></h3>
+                <h3>Language :<span>Tamil</span></h3>
+                <button>Download CV<i class="fa-solid fa-download"></i></button>
+            </div>
+            <div class="about-end">
+                <div class="box">
+                    <span>2+</span>
+                    <h3>Year of Experience</h3>
+                </div>
+                <div class="box">
+                    <span>100+</span>
+                    <h3>Project Completed</h3>
+                </div>
+                <div class="box">
+                    <span>430+</span>
+                    <h3>Happy Clients</h3>
+                </div>
+                <div class="box" style="position:relative;">
+                    <span>12+</span>
+                    <h3>Awards</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--About section end-->
+    <!--Education section start-->
+
+    <div class="Education" id="Education">
+        <h1>My <span> Education</span></h1>
+        <div class="row">
+            <dic class="box">
+                <i class="fas fa-graduation-cap"></i>
+                <div class="year">
+                    <span>2016</span>
+                </div>
+                <h2>Frond End Development</h2>
+                <p>
+                    Lorem ipsum dolor sit amet<br />
+                    consectetur adipisicing elit.<br />
+                    Obcaecati quos alias praesentium.<br />
+                    Id autem provident laborum quae,
+                    <br /> distinctio eaque temporibus!
+                </p>
+            </dic>
+            <dic class="box">
+                <i class="fas fa-graduation-cap"></i>
+                <div class="year">
+
+                    <span>2017</span>
+                </div>
+                <h2>Frond End Development</h2>
+                <p>
+                    Lorem ipsum dolor sit amet<br />
+                    consectetur adipisicing elit.<br />
+                    Obcaecati quos alias praesentium.<br />
+                    Id autem provident laborum quae,
+                    <br /> distinctio eaque temporibus!
+                </p>
+            </dic>
+            <dic class="box">
+                <i class="fas fa-graduation-cap"></i>
+                <div class="year">
+
+                    <span>2018</span>
+                </div>
+                <h2>Frond End Development</h2>
+                <p>
+                    Lorem ipsum dolor sit amet<br />
+                    consectetur adipisicing elit.<br />
+                    Obcaecati quos alias praesentium.<br />
+                    Id autem provident laborum quae,
+                    <br /> distinctio eaque temporibus!
+                </p>
+            </dic>
+            <dic class="box">
+                <i class="fas fa-graduation-cap"></i>
+                <div class="year">
+
+                    <span>2019</span>
+                </div>
+                <h2>Frond End Development</h2>
+                <p>
+                    Lorem ipsum dolor sit amet<br />
+                    consectetur adipisicing elit.<br />
+                    Obcaecati quos alias praesentium.<br />
+                    Id autem provident laborum quae,
+                    <br /> distinctio eaque temporibus!
+                </p>
+            </dic>
+            <dic class="box">
+                <i class="fas fa-graduation-cap"></i>
+                <div class="year">
+
+                    <span>2020</span>
+                </div>
+                <h2>Frond End Development</h2>
+                <p>
+                    Lorem ipsum dolor sit amet<br />
+                    consectetur adipisicing elit.<br />
+                    Obcaecati quos alias praesentium.<br />
+                    Id autem provident laborum quae,
+                    <br /> distinctio eaque temporibus!
+                </p>
+            </dic>
+            <dic class="box">
+                <i class="fas fa-graduation-cap"></i>
+                <div class="year">
+
+                    <span>2021</span>
+                </div>
+                <h2>Frond End Development</h2>
+                <p>
+                    Lorem ipsum dolor sit amet<br />
+                    consectetur adipisicing elit.<br />
+                    Obcaecati quos alias praesentium.<br />
+                    Id autem provident laborum quae,
+                    <br /> distinctio eaque temporibus!
+                </p>
+            </dic>
+        </div>
+    </div>
+
+    <!--About section end-->
+    <!--skill section start-->
+
+    <div class="skills" id="skills">
+        <h1>My <span>Skills</span></h1>
+        <div class="row">
+            <div class="imgdiv">
+                <img src="IMAGE/8.png" />
+            </div>
+            <div class="imgdiv">
+                <img src="IMAGE/7.png" />
+            </div>
+            <div class="imgdiv">
+                <img src="IMAGE/3.png" />
+            </div>
+            <div class="imgdiv">
+                <img src="IMAGE/6.jpg" />
+            </div>
+            <div class="imgdiv">
+                <img src="IMAGE/4.png" />
+            </div>
+            <div class="imgdiv">
+                <img src="IMAGE/5.png" />
+            </div>
+        </div>
+    </div>
+    <!--portfolio section end-->
+    <!--form secion starting-->
+
+    <div class="contact" id="contact">
+        <h1><span>Contact</span>Me</h1>
+        <form class="contactinfo" id="name1" name="name1" action="https://www.youtube.com/results?" autocomplete="off">
+            <!--action="Flexexample.html"-->>
+            <div class="contactinfo1">
+                <h2>CONTACT INFO</h2>
+                <h3><i class="fa-solid fa-envelope"></i>vigneshkumar0598@gmail.com</h3>
+                <h3><i class="fa-solid fa-phone-flip"></i>+801-225-6453</h3>
+                <h3><i class="fa-solid fa-phone-flip"></i>+994-471-3254</h3>
+                <h3><i class="fa-solid fa-location-dot"></i>Tamilnadu,India - 627001.</h3>
+            </div>
+            <div class="inputtype">
+                    <input class="same" id="name1" type="text" placeholder="Name" name="Name" required />
+                    <input class="same" id="email" type="email" placeholder="Email" name="Email" required/>
+                    <input class="same" id="Password2" type="password" placeholder="Password" name="Password" required/>
+                    <input class="different" id="commend2" type="text" placeholder="Commend" name="commend" required/>
+                    <button id="button" onclick="validation()">Send<i class="fa-solid fa-paper-plane"></i></button>
+                <div class="uparrow">
+                    <a class="upa" href="#"><i class="fa-solid fa-arrow-up"></i></a>
+                </div>
+            </div>
+        </form>
+    </div>
+    <!--form secion end-->
+
+</body>
+</html>
